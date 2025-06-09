@@ -18,5 +18,28 @@
       </ul>
     </nav>
   </header>
+  <section>
+    <h2>Contact Me</h2>
+    <form>
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Email Address:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="reason">Reason for Contact:</label><br>
+      <select id="reason" name="reason" required>
+        <option value="">--Please choose an option--</option>
+        <option value="saying_hi">Saying Hi</option>
+        <option value="looking_contractor">Looking for a Contractor</option>
+        <option value="interview">Interested in an Interview</option>
+      </select><br><br>
+
+      <label for="comments">Comments:</label><br>
+      <textarea id="comments" name="comments" rows="5" cols="30" required></textarea><br><br>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
 </body>
 </html>
