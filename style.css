@@ -11,6 +11,16 @@ body {
     background: #fff;
 }
 
+header {
+    position: sticky;
+    top: 0;
+    background: #ffffff;
+    z-index: 1000;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+
 h1 {
     font-size: 3em;
     margin: 0;
@@ -26,4 +36,25 @@ p {
 
 .blog-post {
     border-bottom: 1px dotted #ccc;
+}
+
+img[alt="Spartan image"] {
+    float: left;
+    margin: 0 20px 20px 0;
+    width: 150px;
+}
+
+.flex-layout {
+    display: flex;
+    gap: 20px;
+}
+
+main {
+    flex: 3;
+}
+
+aside {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 20px;
 }
