@@ -58,3 +58,8 @@ aside {
     background-color: #f0f0f0;
     padding: 20px;
 }
+
+.post-image {
+    width: 400px;
+    height: auto;
+}
