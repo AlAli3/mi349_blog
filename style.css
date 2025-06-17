@@ -63,3 +63,20 @@ aside {
     width: 400px;
     height: auto;
 }
+
+a[rel="author"] {
+    font-style: italic;
+    color: blue;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0055aa;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #003d80;
+}
